@@ -1,0 +1,54 @@
+@import '../../vars.css';
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    max-width: 300px;
+    background-color: rgba(207, 208, 209, 0.989);
+    padding: 10px;
+    margin-right: 50px;
+}
+.imgservice{
+    margin-bottom: 26px;
+    border-radius: 5px;
+}
+.title{
+    font-size: 22px;
+    font-weight: 500;
+    align-self: center;
+    font-family: var(--fonts-robot);
+}
+.description {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+.price{
+      display: inline-block;
+      background-color: #e0e7ff;
+      color: #1e3a8a;
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-align: center;
+}
+@media screen and (max-width:830px) {
+    .container{
+        width: 70%;
+        padding: 18px 12px;
+    }
+    .content{
+        font-size:24px;
+        font-weight: 400;
+    }
+    .imgservice{
+        width: 100%;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .description{
+        font-size: 20px;
+    }
+}

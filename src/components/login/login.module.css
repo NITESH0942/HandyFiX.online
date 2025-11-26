@@ -1,0 +1,57 @@
+@import '../../vars.css';
+
+.btn{
+    background-color:#007BFF;
+    font-weight: 600;
+    color: rgb(250, 249, 249);
+    padding: 10px 20px;
+    border: 1px solid rgb(4, 0, 0);
+    border-radius: 8px;
+    cursor: pointer; 
+  }
+.btn:hover {
+    background-color: rgb(247, 247, 248);
+    color: rgb(9, 8, 8);
+    box-shadow: 0 0 20px rgba(4, 43, 82, 0.25);
+  }
+
+/* Overlay behind the popup */
+.loginoverlay {
+  position: fixed;
+  width: 100%;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Popup modal box */
+.loginmodal {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Input fields */
+.logininput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+.loginbutton {
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
